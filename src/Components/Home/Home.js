@@ -15,7 +15,7 @@ const Home = () => {
         <h2 className='text-white fw-bold py-4'> My Works </h2>
         <MyWorks></MyWorks>
         <br /> <br />
-        <h2 className='text-white fw-bold py-4'> People Liked My Work </h2>
+        <h2 className='text-white fw-bold py-4'> Customer Review </h2>
         <Feedbacks></Feedbacks>
       </div>
     );
