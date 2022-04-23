@@ -3,6 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './Components/NavBar/NavBar';
 import { Route, Routes } from 'react-router-dom';
+import Home from './Components/Home/Home';
+// import RequireAuth from './Components/RequireAuth';
 import NotFound from './Components/NotFound/NotFound';
 import Footer from './Components/Footer/Footer';
 function App() {
@@ -11,6 +13,7 @@ function App() {
       <NavBar></NavBar>
       <div>
         <Routes>
+        <Route path='/' element={<Home />}></Route>
           <Route path='*' element={<NotFound />}></Route>
         </Routes>
       </div>
