@@ -68,7 +68,7 @@ const Feedbacks = () => {
                 className='mx-auto'
               />
               <h6 className='py-3'>
-                It has been a pleasure to work with you Mr. Minhaz.
+                It has been a pleasure to work with you  Rifat.
               </h6>
             </div>
           </div>
